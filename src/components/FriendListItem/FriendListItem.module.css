@@ -1,0 +1,23 @@
+.FriendListItem{
+    display: flex;
+    align-items: center;
+    border: 1px dotted rgb(119, 119, 119);
+    margin-top: 10px;
+}
+.FriendListItem:hover{
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+.FriendListItem:first-child{
+    margin-top: 0px;
+}
+.FriendListItemStatus{
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.FriendListItemName{
+    margin-left: 15px;
+}

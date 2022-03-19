@@ -1,0 +1,52 @@
+.Profile{
+    width: 280px;
+    border:1px dotted 1px;
+    padding-top: 10px;
+    -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    font-family: 'Fredoka', sans-serif;
+}
+.ProfileDescription{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ProfileAvatar{
+    border-radius: 50%;
+    width: 80px;
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.ProfileName{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.ProfileTag{
+    color:rgb(216, 212, 212);
+}
+.ProfileLocation{
+    color:rgb(216, 212, 212);
+}
+
+
+
+.ProfileStats{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding: 5px;
+}
+.ProfileStats>li>span{
+    display: block;
+    margin-right: 5px;
+    font-family: 'Fredoka', sans-serif;
+}
+.ProfileStatsQuantity{
+    background-color: #41feff;
+    border-radius: 4px;
+    text-align: center;
+}

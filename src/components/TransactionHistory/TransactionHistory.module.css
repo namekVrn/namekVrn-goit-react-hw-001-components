@@ -1,0 +1,25 @@
+.table {
+    width: 100%; /* если требуется растянуть таблицу на всю ширину родительского блока */
+    border-collapse: collapse; /* если требуется объединить границы ячеек */
+    margin: 0 0 20px; /* устанавливаем нижний отступ */
+}
+
+.th,
+.td {
+    vertical-align: middle; /* установка вертикального выравнивания */
+    text-align: center; /* выравнивание содержимого по горизонтали */
+    padding: 5px; /* установка внутреннего отступа */
+}
+.th {
+    font-weight: bold;
+}
+.tr:nth-child(2n+1){
+    background-color: rgb(187, 184, 184);
+    border: 1px dotted black;
+}
+.tr .th:first-child,
+.tr .td:first-child {
+    /* переопределяем свойства для первого столбца */
+    text-align: left;
+    width: 120px;
+}
